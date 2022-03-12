@@ -1,6 +1,7 @@
 from email.headerregistry import Address
 from django.db import models
 
+
 # Create your models here.
 class About(models.Model):
     Name = models.CharField(default='', max_length=123)

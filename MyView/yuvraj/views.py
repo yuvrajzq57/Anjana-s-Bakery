@@ -30,5 +30,8 @@ def orders(request):
 def cakes(request):
     return render(request, 'cakes.html')
 
+def image(request):
+    return render(request, 'image.html')
+
 
  
